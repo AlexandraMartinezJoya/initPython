@@ -10,4 +10,4 @@ class TotalSumTest(unittest.TestCase):
         """
         data = [1, 2, 3]
         result = sum(data)
-        self.assertEqual(result, 6)
+        self.assertIs(result, 6)
